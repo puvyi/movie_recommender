@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Recommendations</title>
+</head>
+<body>
+    
+    <h1>Movies For You</h1>
+    <p>Sit back relax and enjoy the movies!</p>
+    <ul style="list-style-type:none">
+    {% for movie in movie_list %}
+    <li>{{movie}}</li>
+    {% endfor %}
+    
+        <!-- we use a jinja tag the double curly brackets
+    to pass python variable to the html 
+        
+        <li>{{movie2}}</li>
+        <li>{{movie3}}</li>
+        <li>{{movie4}}</li>-->
+        </ul>
+        <p>Go to the main <a href="/">page</a></p>
+</body>
+</html>

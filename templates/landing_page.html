@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Movie Recommender</title>
+</head>
+<body>
+
+    <h1>Get Movie Recommendations</h1>
+    <p>Find out what movies you may like!</p>
+    <p>The Machine Learning algorithm compares your preferences to your like for likes and gives your the recommendations</p>
+    <img src="../static/logo.png" width="400" height="300">
+    <p id="rating-paragraph">Rate what you like between 1 - 5</p>
+    <form action="/recommendation">
+        Toy Story: <input class="form" type="number" name="Toy Story (1995)" value="5" min="1" max="5" step="1">
+        <br>
+        Jumanji: <input class="form" type="number" name="Jumanji (1995)" value="5" min="1" max="5" step="1">
+        <br>    
+        <input type="submit" value="Sending to the Recommendation">
+    </form>
+    <p>Go to the 
+    <a href="/recommendation">recommendations</a>
+    </p>
+
+</body>
+</html>

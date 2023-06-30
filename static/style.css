@@ -1,0 +1,47 @@
+/* Here we define the style of our templates */
+/* General Syntax */
+/* selector {
+    property:value;
+    anotherproperty:anothervalue
+} */ 
+
+/* CHange the style by picking a tag */
+
+h1 {
+    color: hotpink;
+}
+
+p {
+    color: maroon;
+}
+
+img {
+    border-radius: 400px;
+}
+
+img:hover {
+    box-shadow: 3px 3px 6px;
+}
+
+body {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: lavender;
+}
+/* CHange the style by picking the id of tag */
+
+#rating-paragraph {
+    color:indigo
+}
+
+/* CHange the style by picking the class of tag */
+
+.form {
+    width: 75px;
+    background-color: brown;
+}
+
+.form:hover {
+    box-shadow: 3px 3px 6px;
+    background-color: orange;
+}
